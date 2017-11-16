@@ -16,7 +16,7 @@ import traceback
 
 # 请求接口获取每个直播的PV
 def request_api(live_id):
-    api_url = "http://cms.api.autohome.com.cn/Wcf/LiveService.svc/LiveRoomPeopleLook?_appid=cms&id=" + str(live_id)
+    api_url = "http://xxxxxxxxxx/Wcf/LiveService.svc/LiveRoomPeopleLook?_appid=cms&id=" + str(live_id)
     req = urllib2.Request(api_url)
     f = urllib2.urlopen(req)
     rep = f.read()
