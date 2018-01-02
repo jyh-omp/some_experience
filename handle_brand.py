@@ -7,7 +7,7 @@
 
 import requests
 
-r = requests.get(url='https://cars.app.autohome.com.cn/cars_v8.5.5/cars/brands-pm1.json')
+r = requests.get(url='https://cars.app.autohome.com.cn/xxxx')
 print r.status_code
 ret = r.json()
 
